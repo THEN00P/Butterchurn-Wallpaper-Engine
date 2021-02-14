@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Butterchurn Visualizer</title>
+	<style>
+		body {
+			margin: 0;
+			overflow: hidden;
+		}
+		#canvas {
+			display: inline-block;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+		#dbgCanvas {
+			position: fixed;
+			top: 0;
+			left: 0;
+		}
+	</style>
+	<script src="lib/FFT.js"></script>
+	<script src="lib/butterchurn.min.js"></script>
+	<script src="lib/butterchurnPresets.min.js"></script>
+	<script src="lib/butterchurnPresetsExtra.min.js"></script>
+	<script src="lib/butterchurnPresetsExtra2.min.js"></script>
+	<script src="lib/butterchurnExtraImages.min.js"></script>
+	<script src="visualizer.js"></script>
+</head>
+<body>
+	<canvas id="dbgCanvas" width="800" height="600"></canvas>
+	<canvas id="canvas" width="800" height="600"></canvas>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "EPILEPSY WARNING!\n\nButterChurn is a WebGL implementation of the MilkDrop 2 visualizer as you might know it from winamp.\n\nTriple click to keep the current preset\nQuadruple click to skip to the next preset\n\n\nTODO:\n- custom presets\n- settings\n\n\nThanks to:\nJordan Berg (Butterchurn JavaScript library)\nRyan Geiss (MilkDrop 2)",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
+		}
+	},
+	"preview" : "preview.png",
+	"tags" : [ "Abstract" ],
+	"title" : "Butterchurn - Audio Visualizer",
+	"type" : "Web",
+	"version" : 2,
+	"visibility" : "public",
+	"workshopid" : "1857696466",
+	"workshopurl" : "steam://url/CommunityFilePage/1857696466"
+}
